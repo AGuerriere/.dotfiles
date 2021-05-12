@@ -2,7 +2,7 @@
 
 To setup:
 
-[ ] Clone this repo to ~/
+[ ] Clone this repo in the home directory.
 
 [ ] from Terminal `ln -s ~/.dotfiles/.zshrc ~/.zshrc` 
     
