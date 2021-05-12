@@ -16,5 +16,15 @@ setopt PROMPT_SUBST
 PS1='%F{cyan}╔╡%F{cyan}[%n]%F{cyan}:%F{magenta}[%m]%F{cyan}➾%F{green}[%~]%F{default}%F{yellow}${vcs_info_msg_0_}%F{cyan}
 ╚═╡%F{default}'
 
+# -------
+# Aliases
+# -------
+alias c='code .'
 
-alias gcm='git commit -m'
+
+
+# ----------------------
+# Git Aliases
+# ----------------------
+alias ga='git add .'
+alias gm='git commit -m'
