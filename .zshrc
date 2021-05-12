@@ -1,3 +1,6 @@
+# To let zsh know that the .zshrc is in the .dotfiles folder type the following symlink in the terminal:
+# ln -s ~/.dotfiles/.zshrc ~/.zshrc
+
 # Load version control information
 autoload -Uz vcs_info
 precmd() { vcs_info }
