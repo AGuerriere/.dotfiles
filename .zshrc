@@ -21,10 +21,27 @@ PS1='%F{cyan}╔╡%F{cyan}[%n]%F{cyan}:%F{magenta}[%m]%F{cyan}➾%F{green}[%~]%
 # -------
 alias c='code .'
 
-
-
 # ----------------------
 # Git Aliases
 # ----------------------
 alias ga='git add .'
 alias gm='git commit -m'
+
+# This is a function to automate the creation of new a project folder, 
+# git init, create github repo and push
+function gnew () { 
+    if [ $# -eq 1 ]
+    then
+        mkdir $1
+        cd $1 
+        git init
+        touch README.md
+        git add .
+        git commit -m 'first commit'
+        git branch -M main
+        gh repo create $1 --confirm --public
+        git push --set-upstream origin main
+    else
+        echo "Please specify project name - 1 argument only"
+    fi
+}
