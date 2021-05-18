@@ -1,20 +1,29 @@
 # To let zsh know that the .zshrc is in the .dotfiles folder type the following symlink in the terminal:
 # ln -s ~/.dotfiles/.zshrc ~/.zshrc
 
+# -----------------
+# if a % appears before the prompt when restoring the session you can stop it with the following three lines
+# setopt PROMPT_CR
+# setopt PROMPT_SP
+# export PROMPT_EOL_MARK=""
+# ------------------
+
+# -----------------------------
+# Custom prompt with Git update
+# -----------------------------
 # Load version control information
 autoload -Uz vcs_info
 precmd() { vcs_info }
-
 # Format the vcs_info_msg_0_ variable
 zstyle ':vcs_info:git:*' formats '⚡️%b'
- 
 # Set up the prompt (with git branch name)
 setopt PROMPT_SUBST
 # PROMPT='%n in ${PWD/#$HOME/~} ${vcs_info_msg_0_} 
 # > '
-
 PS1='%F{cyan}╔╡%F{cyan}[%n]%F{cyan}:%F{magenta}[%m]%F{cyan}➾%F{green}[%~]%F{default}%F{yellow}${vcs_info_msg_0_}%F{cyan}
 ╚═╡%F{default}'
+
+
 
 # -------
 # Aliases
