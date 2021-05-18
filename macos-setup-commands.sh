@@ -19,4 +19,4 @@ brew install --cask visual-studio-code
 brew install --cask keepassxc
 brew install --cask flux
 
-# don't forget to install magnet from app store
+# Don't forget to install magnet from app store
