@@ -7,6 +7,7 @@ brew update
 
 # CLI
 brew install git
+# gh is Github cli
 brew install gh
 brew install python
 brew install node
