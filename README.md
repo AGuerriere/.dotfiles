@@ -14,7 +14,7 @@
 - Run all commands macos-setup-commands.sh file
 - Install magnet from app store
 - Change MacOS settings like below
-- Install web browser extensions - uBlock Origin, Privacy Badger, OneTab
+- Install web browser extensions - uBlock Origin, Privacy Badger, OneTab( in uBlock origin go to settings > filters list > annoyances, turn on easylist-cookies to block annoying cooking popups to show on every website )
 - Install VS Code Extensions - Pitch Black Theme by Viktor, Live Server, Pylance, (Microsoft), Python(Microsoft)
 
 ## Mac Settings to change:
