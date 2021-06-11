@@ -35,6 +35,7 @@ alias c='code .'
 # ----------------------
 alias ga='git add .'
 alias gm='git commit -m'
+alias gp='git push'
 
 # This is a function to automate the creation of new a project folder, 
 # git init, create github repo and push
