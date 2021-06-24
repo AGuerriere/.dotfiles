@@ -23,5 +23,6 @@ brew install --cask visual-studio-code
 brew install --cask sublime-text
 brew install --cask keepassxc
 brew install --cask flux
+brew install --cask anki
 
 # Don't forget to install magnet from app store
