@@ -24,5 +24,7 @@ brew install --cask sublime-text
 brew install --cask keepassxc
 brew install --cask flux
 brew install --cask anki
+brew install --cask postman
+
 
 # Don't forget to install magnet from app store
