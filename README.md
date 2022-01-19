@@ -14,7 +14,7 @@
 - Run all commands macos-setup-commands.sh file
 - Install magnet from app store
 - Change MacOS settings like below
-- Install web browser extensions - uBlock Origin, Privacy Badger, OneTab( in uBlock origin go to settings > filters list > annoyances, turn on easylist-cookies to block annoying cooking popups to show on every website )
+- Install web browser extensions - uBlock Origin(and import ublock-myfilters.txt in my filters settings), Privacy Badger, OneTab( in uBlock origin go to settings > filters list > annoyances, turn on easylist-cookies to block annoying cooking popups to show on every website )
 - Install VS Code Extensions - Pitch Black Theme by Viktor, Live Server, Pylance, (Microsoft), Python(Microsoft)
 
 ## Mac Settings to change:
@@ -34,16 +34,3 @@ double click a window's title bar to zoom, minimise windows into application ico
 DESELECT show recent applications in Dock, and automatically hide and show the menu bar
 set dock size to max
 -----------------
-
-
-# uBlock Origin - my filters
-
-Add those filters to my filters:
-
-www.youtube.com##.grid-disabled.grid.ytd-browse.style-scope
-
-youtube.com##.ytd-watch-next-secondary-results-renderer
-
-www.reddit.com##div[data-testid="frontpage-sidebar"]:upward(.ListingLayout-outerContainer)
-
-news.google.com
