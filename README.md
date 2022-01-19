@@ -34,3 +34,12 @@ double click a window's title bar to zoom, minimise windows into application ico
 DESELECT show recent applications in Dock, and automatically hide and show the menu bar
 set dock size to max
 -----------------
+
+
+# uBlock Origin - my filters
+
+Add those filters to my filters:
+www.youtube.com##.grid-disabled.grid.ytd-browse.style-scope
+youtube.com##.ytd-watch-next-secondary-results-renderer
+www.reddit.com##div[data-testid="frontpage-sidebar"]:upward(.ListingLayout-outerContainer)
+news.google.com
