@@ -39,6 +39,7 @@ set dock size to max
 # uBlock Origin - my filters
 
 Add those filters to my filters:
+
 www.youtube.com##.grid-disabled.grid.ytd-browse.style-scope
 youtube.com##.ytd-watch-next-secondary-results-renderer
 www.reddit.com##div[data-testid="frontpage-sidebar"]:upward(.ListingLayout-outerContainer)
