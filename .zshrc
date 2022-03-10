@@ -50,7 +50,8 @@ function gnew () {
         git add .
         git commit -m 'first commit'
         git branch -M main
-        gh repo create $1 --confirm --public
+        gh repo create $1 --public
+        git remote add origin git@github.com:AGuerriere/$1.git
         git push --set-upstream origin main
     else
         echo "Please specify project name - 1 argument only"
