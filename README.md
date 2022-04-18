@@ -16,6 +16,10 @@
 - Change MacOS settings like below
 - Install web browser extensions - uBlock Origin(and import ublock-myfilters.txt in my filters settings), Privacy Badger, OneTab( in uBlock origin go to settings > filters list > annoyances, turn on easylist-cookies to block annoying cooking popups to show on every website )
 - Install VS Code Extensions - Pitch Black Theme by Viktor, Live Server, Pylance, (Microsoft), Python(Microsoft)
+- For colorized brackets in VS code add the following lines to settings.json:
+- 
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active"
 
 ## Mac Settings to change:
 - Adjust mouse tracking speed: system preference, mouse, bring tracking speed to 7th   mark from the left
