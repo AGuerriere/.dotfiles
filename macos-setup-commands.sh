@@ -7,6 +7,8 @@ brew update
 
 # CLI
 brew install git
+brew install neovim
+brew install exa
 # gh is Github cli
 brew install gh
 brew install python
@@ -25,6 +27,10 @@ brew install --cask flux
 brew install --cask anki
 brew install --cask postman
 brew install --cask google-drive
+brew install --cask rectangle
+
+# Install Hack Nerd Fonts. Remember to choose the hack fonts in the terminal
+brew tap homebrew/cask-fonts &&
+brew install --cask font-Hack-nerd-font
 
 
-# Don't forget to install magnet from app store
