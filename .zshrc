@@ -15,7 +15,7 @@
 autoload -Uz vcs_info
 precmd() { vcs_info }
 # Format the vcs_info_msg_0_ variable
-zstyle ':vcs_info:git:*' formats '⚡️%b'
+zstyle ':vcs_info:git:*' formats '[%b]'
 # Set up the prompt (with git branch name)
 setopt PROMPT_SUBST
 # PROMPT='%n in ${PWD/#$HOME/~} ${vcs_info_msg_0_} 
@@ -29,6 +29,13 @@ PS1='%F{cyan}╔╡%F{cyan}[%n]%F{cyan}:%F{magenta}[%m]%F{cyan}➾%F{green}[%~]%
 # Aliases
 # -------
 alias c='code .'
+alias o='open .' #Open the current directory in Finder
+
+
+# Exa ls replacement alias
+alias ll='exa -l -g --icons'
+alias lla='ll -a'
+
 
 # ----------------------
 # Git Aliases
@@ -58,3 +65,16 @@ function gnew () {
         echo "Please specify project name - 1 argument only"
     fi
 }
+
+# Create new folder and cd into the folder just created
+function mkcd() {
+    mkdir $1 && cd $1
+}
+
+function lt(){
+    exa --tree --level=$1  --icons
+
+}
+
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

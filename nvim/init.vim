@@ -5,5 +5,6 @@
 :set mouse=a
 :set smartindent
 :set autoindent
+:set showmatch
 
 source $HOME/.config/nvim/vim-plug/plugins.vim
