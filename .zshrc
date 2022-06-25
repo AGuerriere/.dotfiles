@@ -45,6 +45,7 @@ alias gm='git commit -m'
 alias gp='git push'
 alias gn='gnew'
 alias vim='nvim'
+alias v='vim .'
 
 # This is a function to automate the creation of new a project folder, 
 # git init, create github repo and push

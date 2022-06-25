@@ -8,3 +8,10 @@
 :set showmatch
 
 source $HOME/.config/nvim/vim-plug/plugins.vim
+
+"--EMMET CONFIG--
+"redefine trigger key for emmet
+let g:user_emmet_leader_key=','
+
+"--Ayu Theme selection
+colorscheme material
