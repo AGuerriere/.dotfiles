@@ -6,6 +6,7 @@
 :set smartindent
 :set autoindent
 :set showmatch
+:set nowrap "don't adapt lines to screen size
 
 source $HOME/.config/nvim/vim-plug/plugins.vim
 
