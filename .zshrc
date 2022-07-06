@@ -30,6 +30,8 @@ PS1='%F{cyan}╔╡%F{cyan}[%n]%F{cyan}:%F{magenta}[%m]%F{cyan}➾%F{green}[%~]%
 # -------
 alias c='code .'
 alias o='open .' #Open the current directory in Finder
+alias vim='nvim'
+alias v='vim .'
 
 
 # Exa ls replacement alias
@@ -43,9 +45,9 @@ alias lla='ll -a'
 alias ga='git add .'
 alias gm='git commit -m'
 alias gp='git push'
+alias gl='git pull'
 alias gn='gnew'
-alias vim='nvim'
-alias v='vim .'
+
 
 # This is a function to automate the creation of new a project folder, 
 # git init, create github repo and push
