@@ -79,5 +79,9 @@ function lt(){
 
 }
 
-
+# Needed for fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH="${HOME}/.pyenv/shims:${PATH}"
+
+# Path needed for homebrew
+export PATH="/usr/local/sbin:$PATH"
