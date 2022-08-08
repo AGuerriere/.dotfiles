@@ -28,9 +28,15 @@ brew install --cask anki
 brew install --cask postman
 brew install --cask google-drive
 brew install --cask rectangle
+brew install --cask chromedriver
+brew install --cask whatsapp
+brew install itsycal
 
 # Install Hack Nerd Fonts. Remember to choose the hack fonts in the terminal
 brew tap homebrew/cask-fonts &&
 brew install --cask font-Hack-nerd-font
 
+# Install nvm and Node
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+nvm install node
 
