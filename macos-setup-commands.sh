@@ -30,6 +30,7 @@ brew install --cask google-drive
 brew install --cask rectangle
 brew install --cask chromedriver
 brew install --cask whatsapp
+brew install --cask vlc
 brew install itsycal
 
 # Install Hack Nerd Fonts. Remember to choose the hack fonts in the terminal
