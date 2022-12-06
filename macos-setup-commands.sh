@@ -33,6 +33,9 @@ brew install --cask whatsapp
 brew install --cask vlc
 brew install itsycal
 brew install --cask alt-tab #also screenshots for alt-tab configuration alt-tab folder
+brew install --cask signal
+
+
 
 # Install Hack Nerd Fonts. Remember to choose the hack fonts in the terminal
 brew tap homebrew/cask-fonts &&
@@ -42,3 +45,4 @@ brew install --cask font-Hack-nerd-font
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 nvm install node
 
+# Restore Alfred preferences from Google Drive in the folder IT > / Alfred Bacup Preferences
