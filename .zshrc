@@ -69,6 +69,13 @@ function gnew () {
     fi
 }
 
+
+function gsdeploy(){
+    glab mr create --fill
+    glab mr merge
+    az webapp deployment source sync --name Get-sociable-prelive --resource-group get-sociable-prelive
+}
+
 # Create new folder and cd into the folder just created
 function mkcd() {
     mkdir $1 && cd $1
@@ -90,3 +97,37 @@ export PATH="/usr/local/sbin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+alias m269-23j='cd "/Users/antonioguerriere/My Drive/University/Stage 2/M269/m269-23j";source /Users/antonioguerriere/venvs/m269-23j/bin/activate'
+alias nb='jupyter notebook &'
+alias allowed='python3.10 "/Users/antonioguerriere/My Drive/University/Stage 2/M269/m269-23j/allowed.py" -c "/Users/antonioguerriere/My Drive/University/Stage 2/M269/m269-23j/m269.json"'
+alias m269-23j='cd "/Users/antonioguerriere/My Drive/University/Stage 2/M269/m269-23j";source /Users/antonioguerriere/venvs/m269-23j/bin/activate'
+alias nb='jupyter notebook &'
+alias allowed='python3.10 "/Users/antonioguerriere/My Drive/University/Stage 2/M269/m269-23j/allowed.py" -c "/Users/antonioguerriere/My Drive/University/Stage 2/M269/m269-23j/m269.json"'
+alias m269-23j='cd "/Users/antonioguerriere/My Drive/University/Stage 2/M269/m269-23j";source /Users/antonioguerriere/venvs/m269-23j/bin/activate'
+alias nb='jupyter notebook &'
+alias allowed='python3.10 "/Users/antonioguerriere/My Drive/University/Stage 2/M269/m269-23j/allowed.py" -c "/Users/antonioguerriere/My Drive/University/Stage 2/M269/m269-23j/m269.json"'
+alias m269-23j='cd "/Users/antonioguerriere/My Drive/University/Stage 2/Temp/M269-23J";source /Users/antonioguerriere/venvs/m269-23j/bin/activate'
+alias nb='jupyter notebook &'
+alias allowed='python3.10 "/Users/antonioguerriere/My Drive/University/Stage 2/Temp/M269-23J/allowed.py" -c "/Users/antonioguerriere/My Drive/University/Stage 2/Temp/M269-23J/m269.json"'
+alias testM269='cd "/Users/antonioguerriere/My Drive/University/Stage 2/M269/m269-23j";source /Users/antonioguerriere/venvs/testM269/bin/activate'
+alias nb='jupyter notebook &'
+alias allowed='python3.10 "/Users/antonioguerriere/My Drive/University/Stage 2/M269/m269-23j/allowed.py" -c "/Users/antonioguerriere/My Drive/University/Stage 2/M269/m269-23j/m269.json"'
+
+
+# Set unlimited zsh command history
+HISTFILE="$HOME/.zsh_history"
+HISTSIZE=1000000000
+SAVEHIST=1000000000
+setopt BANG_HIST                 # Treat the '!' character specially during expansion.
+setopt EXTENDED_HISTORY          # Write the history file in the ":start:elapsed;command" format.
+setopt INC_APPEND_HISTORY        # Write to the history file immediately, not when the shell exits.
+setopt SHARE_HISTORY             # Share history between all sessions.
+setopt HIST_EXPIRE_DUPS_FIRST    # Expire duplicate entries first when trimming history.
+setopt HIST_IGNORE_DUPS          # Don't record an entry that was just recorded again.
+setopt HIST_IGNORE_ALL_DUPS      # Delete old recorded entry if new entry is a duplicate.
+setopt HIST_FIND_NO_DUPS         # Do not display a line previously found.
+setopt HIST_IGNORE_SPACE         # Don't record an entry starting with a space.
+setopt HIST_SAVE_NO_DUPS         # Don't write duplicate entries in the history file.
+setopt HIST_REDUCE_BLANKS        # Remove superfluous blanks before recording entry.
+setopt HIST_VERIFY               # Don't execute immediately upon history expansion.
+setopt HIST_BEEP                 # Beep when accessing nonexistent history.
